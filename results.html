@@ -13,23 +13,130 @@
 </head>
 
 <body>
+<form>
+    <div>
+        <input type="search" id="miBusqueda" name="q" placeholder="Buscador">
+        <button>Buscar</button>
+    </div>
+</form>
 <h1 align="center">RESULTS</h1>
-<h3 align="center">Categoria buscada: ROCK</h3>
-</div>
-<div class="results"align="center">
-    <button class="search">
-        <p>Click para escuchar</p>
-    </button><hr>
-    <button class="search">
-        <p>Click para escuchar</p>
-    </button><hr>
-    <button class="search">
-    <p>Click para escuchar</p>
-</button><hr>
-    <button class="search">
-        <p>ddsad</p>
-    </button><hr>
+<h3 align="center">Categoria buscada: RAP</h3>
+<main>
+    <table>
+        <tr>
+            <th>
+                <a href="https://www.youtube.com/watch?v=a9jxNusr0tE">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGBcaGBgXGRoXGBcfGBcXFxcYGhUYHSggGBolHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy8mICUtLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAL8BBwMBEQACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAADBAIFBgEHAAj/xAA4EAABBAAEBAQEBAUEAwAAAAABAAIDEQQSITEFBkFREyJhcTKBkaEHFEKxUsHR4fAVI2JyM1OC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDBAAF/8QALhEAAgICAgIDAAEDAwQDAAAAAAECEQMhEjEEQRMiUWEUMnGBkfAFI0KxM1Ji/9oADAMBAAIRAxEAPwDzuNtLyG7NqVBBGhY1aJNalsZE2stBsKVkhugddsIRaXofskxutFBv8O97CiK/kl5DcfwN4d/5ukuhqsn4SXkNXsg6MblMpMWl2KStCrFk5IWMeqpZHiibWINjpdkhChyO4hhD6JOQ1WxmPDKbmUUR2KGgoSkVSDNjSNnEguCicY1QYCc1GkEFiErlaKJtgcwtPQhCdiMWBoQkZqVoT0Sa2BMaexaBubSKYrQN4CdWKwmGgs7JJyoeMS4wfCXu6V7rLPOkXjibLrCcGaNTqfssss0n0WWNIt4cOANAFNbHPNm6r2DCnYRoQGo+BQAnQQH0SjX6OuFLlsLuwjCPmldjJoL4fok5DV+hotkshk7GIlOQy7CSMpKnYaFJ91WIkhV0ZtVUiTWzmTddYa7JsYg2FINFFemqSUhkhqCDTZSlMdL+BqOKuim5BSCsjtK2FBZY9NkEcxZzSmsBBxoUigdAjIaT8QW6FZDr7qqRNnzG91zZyOYh4pdFbBJioIVdiaITEJo2Bgm4dzzTQSmc1HsVRcuh3D8Ed+o0oz8peikfHfsu8HgWMqhax5MspdmmONRLXDg9lIZh4406iCxmNipGIrZ5WNKXpmMlei470fAoHIMz90rGQR0eiVPYzR2JtaIN2clQ3HqpMqvQVjaSNjJUScNdEEF9nS7uur8OIPAOqKbBrsEWdk9i0cMW5vVdyBxfZ2Nq5sKHGRqLY9MOwUkYUTBShsajCUIcgfNcAXmYNwiF9Cb406YjQliGK0WI0BLU1gaIF56JkhbbAWT0v2VNITbDQ8NedT5R90ks8VpbHjhk3vRaYbhsY31KzTzzZaOKKGm0NgFJ2+x0kiRchQSbHINHWO4eULkBjrJL17qqEGodt1RaQrPInu7r0kjG3+nwK4CCR6mkj0UjvoYLtaSUO3QWNIwr8D0EhSlVho3AdEjQyeggYls6iQZqhYV2RkaaRTQHZBrUWwL9PjAatdyR3HRBrUzYBljApNjhme6RhJErjmzoCBxDEcSihH+48N9NyfYblPjwTyv6oWWSMF9mVmJ5yiHwsefemhao/wDTpvtog/Lj6QNnOERNOa5vzBRf/Tp1adhj5UHp6LODiUUg8jgSeh0OizSwTh2iqnFrQOeXRdGJzYl4tq/Gid2zT4PgsRY0kWSNVgnnlZoWNBjwdvTT2SfNIfiiB4EDu9yZZ2vRziOw8Aj/AIyg8rYvQw3gUPc/VdzYtsK3l+Hufqjy/kXkw7OAwd/umSX6Dm/wai4LCBZIVFGPbYrnL8GYYIBvSrFwFbkSkjw5O4H+eqZyh6AuZ5TLAx27UsZyXTNssUJLaFJeED9JVo+Q/wDyRnfiL0xQYcsu1XmpdEODh2Ca7VM1oRPY3F/EpS/Cse7Jk6paC6GI9lNjroMx6RoZOjrpPkuUQ3+HHSWFyR1gw8pqFs66QrqR3Jo4zuuYBlimxgjWJWw0SA1QORYYHAvleGMFuP0HqfRdCLm6QZNRVsR4l+FWJL3Suex166X/ADHReusuTFjpR6MfDHknbZnuYOWnwM84AA2Ov09ev0U8Hk8p17GyeOlG0Zh+DLiKGvZb1kUVsxuDZyFzonXrp0KMlHJEaEpQkaTC8abIAw/F376bLzZ+K4fZdGz5oyVBZX9ksUK3+D0fEJQwU8hQeGDl0WWSXHsSPGp+jyr/ANNi/CPz5P0+/wBYxH/sK7+nxfgrzZP06eLz1rI6/dD+nxfgfmnXZOLik/8AG76oPBj/AAKyz/Rl3EZT+t31UvigvQ/OX6Ghxkg/WfqllCPpDKTGm411fE76qbgPyDsxLu5Q4hsbw8TjqbpBKzigpXLgmP8APuma+oqf2B8WJoJsHZHyborY2rQ2ZIoaA0UrKVoZhaDupyZSKQVrkrR2z5h9VzOWiZSjEXD0RQDmWl1nBBHY10Q5UdV9kmR1YQcgpE2mkoQsaVhQVjaKVsajd/h5hdJJCNCQ0H21P7heh4EO5GTypdI3EjgG61816TaUdmBJuWjxr8ScTmNSA5HA5TsL7fdePic55XNf8R6z4xxcWeethDbIcLGxv+a3uTl2jMo0U2NzOdd2tmPikZZtt2AY8ggjSiE7SehU2tmrjmzNB7gFeU41Jo2XoZbspvsoloAWAKl2SqhlrApNtFKTJ+CEOZ3E6yHog5nJDHgbKfIfiSZC49EHJBoZOFKTmNxJxyUa6oNBRsIMRExjM5GoXKSXYGmZH8mK3KX5WbOKFI8Ic1V13VXk1YnAFxqDQC0/jz2R8iNoqnkDZalsyPXQSJ9/ySyQ0XYxGbU2qG7DbeyTsZ6ONK5nHQSu0crJsNpXoKCNASthCNb2SthRNgHVBnejuyHZxONyDQyJl2qFB9mo5ehxcmHl8GVzMjmlgAADrHnbZ36Fa8Cm8b4eiU5Y1Nc1dmh5c4jNiBkdbgzRxe0NIIsEW0kEK2DLkyS4XaRLNDHjXJKmz7nfDxflnMcAToda0IKby3GEKXYPF5Tnvo8TwvCPzMhazyRtsueBmyhps0B8RAOyKzfGly22M8PNviJ858qvwYZIC8xvqs4DXiwCLA6EFa/H8hZG4tUzNnwcFyi7Rn8OyyB3rb1V5vVkoK3RqsDhSAGnoP8AN15eXIm7Rujip0yx/KOy3lNLN8ivsu4aFvCB30VeVEnFPsKyNI5A40TdogjgjDXRKwlhhiD0UZFEHeddEoSTpQGk7o0cU75jmv1VlHRJvYxHiDI7zGqCSUeC0MnyezZcx8Vgw7dGtc7sFWUIOXGKApSq2wvBcXFiIQ/IAeo7IqEdxaO5PtMzHPcAAaWikuGlkaQ2RtwsxbQtrMgVra3StjdMYjCnIdDDtlMdnY26oNhRI+yBwRu/ZBjBAkODZaS3YfR9HSDsKoi9tlMnSBRylwa9k2G/82Qo5HqPDuOYWER4eJ4cGljSADqXEAuzVRsm916Uc8IRio9XRkl485tylr2XbSIwQwAWSfrutCqC+pBpzacjH81BjwRZPf1XjeZNc04vZ6vip1spuXuDNkgHhFkUbHv8Z7tXOBFBg2oakk30C0Y4PJFyl3+gyz+OdJXfoyX4t8dZMWQxOzsjoF93mLRW5323W3xI3kcv4pGPyPri4/rsx/AIg6QEjRv3N6K3lScY69i+HFSnb6RrmZfEJOo7BeQ740ja2ubOy4rSgSAujj3bBz1oXY2+6o3ROrC5UlgaIOTID0HhOinIZDLpcrb6pFHkxrpEG4y9Si8YORGafoujA5yEJ3LRFEmzsclC+q5xtnJ0VcXEXE28lxPfVaZYV6IwytPZe8s8eML6d8Dvss+bE6uPZbHkt0y75xxIfECFk8d3kNWRVjZi4/3XoswIaaFJlAsbfRK2Mgv7pBuj5n3XM4kB6oB/gM1w2KRp+hrXTCtI7pXYSQdf9UKOWz7quCycUV0Bqb0H9kG2ci7ZyfinReMGCtfKT56H/E/tutC8fJx5USeaHKrEuFcEdO2YsP8AuRhpDOrrJDvaq+6WEHOLa9DSajJGj5M4/Bh6wszCyUuJt7aDndACdnVsD8lr8aajF2iWfG5U0zUY+UnVul2jnk2riLiilpmO4zMADra8R7lR6uJUrMHwmOad74myuEYJflNlnay3vsvWzTjjxq0Zopym2mVPHeXMS1pe5nlBskH70tHjeZibSTMvkePNn3KGEdZcWWxpBcb2I1Gg1XedkXSexvCi4ptrReba1usPZV6dgZIymUkK07CsFBIxldEZAmQjVACCnVE9jOAq9VPLdDwD4mOz5VOEqWxpIX8IjQgqnJMWiMkbsoNGu/RMmroDTEnu7qyRJkIpi51AX2RcUlbApNuhng3B45cQ+OyGtuu+6XNnlDGn7Y+LDGU2vwFjeH5JTG03roux5uUOTOni4y4ouMfHWHAdqRosmJ3ltGqf/wAWygjK3sxIYjKm0OnoPHvSnLoZBgkGPh7rgn2vouOVnJR1XL8AyTDpqua/AoBLxGMaGRtjpd/YKkcE30hXkS7YM8bib/EfkQD7E0m/pZsHzwXY7yxzOG4mJ1RipGgNsvc7NoA1rRqddFWPi8JKSt/6E3nU00z2rG8wCFkb3xlrnUXx6EsvuQaB6J8/lrFWt+0Ji8Z5dJ/6mV4RgXSYgYwP8PzuDwNLBs127fRYPGk3JzbpX/sbc6jFcO3RmebWxMxeIEjszXhrmncgkinA9KrdVtqVx3tjY6kkpa0bgcRbLCwsO4A/qpZs6lCkIsTjN2Y/nDGtiblNX2HVZsGJznr0alkUY8mH/Djh7fCklc3WQFo9tCts2pScX1Rnk2kmv8jXMko8PI/QA0QASTZ0DWjVxPQBYIcnkUY9ovBxinJmVn4RxKNrzBg3MicPhdRkcN7IJsE+gXrfBB7yPZhn5E3qCVFJ/qBzFsrCwjcEEFvu0oPBSuLAs9upItJKoEbLIrumaXVWgcXZMxVXRbcHw7Hl2YdFnyya6HikzvEcG0RggdShjm3LYJRVFHZB0Wvsz9DMGb6KcqHV0SxJc7UoQpHSticmNeW5CfKFZY43y9iObqivxLrV4IlJ2d4bFI51tB0vVdmlBKmdijJu0QwAkLi5jsp7psrgklJHYuTdof4TAXS292o69SVnzzUYVFF8EHKbcmXrcC7EOMQNDuskZcPsjRkina9FDj+Guifkux/nRbIZlONmSWJxYfCYAuJG1JJ5UlY8MTboe4XAAXEjbQKOWbopjjQcQtzgH3U+T42U4q6FseG2KCfFdCZKsPPC0tFHVLGTT2PKKa0J8dx8X+nsfHQnbK5slDKSAXN6l2nwnSv5L1seKGo6szT5fC5+rMPiOJveKOvuXOPys0PotccKj/yjA8rZyPCzO+FjvpQXOeOPbQFGT6Q5By/M7Uhrfc2oy8zFEpHx5s3v4X8vxR4kvmIe9rc0QrytcD8VdSOij/VrI6SK/wBO4o9N4lg7jcRqXbn21H7KGfCvjddsriyVJX6Mrj5JQ4wxj/yuGX3AteaottwXX4eguNKb9GDlDs8md1uDi2/RpIoei30opJIzSk5Nuy+wvMvhQ+FHESc13ppoLF+9qDxOWrS/9lOUdN/hm+IRzTyeLJQBO12QFpxyx4o8Y9iuMskrfR6pyvGI8M0DsT7DUrPildv2DMvtX4WHJnDWyO/Oy0S8kYdp6M2zgfxO3voCF6XiePGC5S7Zg8nM5fWPSNXjnNy6kWdttVryVRnx3Z5hz9wJs7SWipGg5XDf/qe4K8d5niy//l9npfGpw/k8y4RjtQ13w9fT5LTnxatEMOTfFmqHD2f+xeX8svw9D40+mPYOFseof9lKc3L0GMUgkrGvblLtN0qbTs5pMUHC4c1F5Css0qJvEhtvCYujyUvyNncEgreE4YjWRy75WjnAieXcKRTXOLk/9RIX4l7QLGcEiY3UWL/dL8s7ux1CNVQXDcMa34TXopTyOXZSMUujB4Z+UGr1XszV1Z52N8boJhX060s1aoeD2N4fiTmuuyPUKUsKapDrLvZw4vM7MSTS746VI75LZYYHFDM69yFnyY3SLQnsPI6mkJFthYthZjnBVJx+pNS+xzESAuJ0BRgqQZSVgWv6d07QvL0BfgWagtvMbN7E+xTrNL0+gV9ePp7OtwrQKa0D2CDySb2xeEekHY1I2OkSB2QCmSbO5jwWmnNIIPqNV0Vqwt72eocrcSGNAs5XsouaDWv8Q7tK14l8r36M2V/Gr/S1k4WxjnOGrs2Zn/E5cpA9NUz8eMG2u70Kszkkn17PFsZE5j3Md8TSQfezqsq2bJKmTwGGfK9sbGlznGgB/mgXU26QLSVspubJMk5gY+/DNOI0Bf8Aqr0G3yK3ePhUU5Mx5srbSRq+C8WOIwkWHa4+LNIINNPLfnd8mg/VZY+PxzteuzTLNyxqR6viAWPa1jfJE0NaARpTQfhv2C9Bun/gxQSa37EGv8TERhwcPDjcfMCLc7f7FQb55En6RXqDa9sDxchtrD5bijTgtnhHE4xHipgNs5I+etfdehjl8mGL/gx5Y8MrRquFyZmfFVLyc0eMuj0cb5RHbr9X2Ue/RQkJ/wDkF3H+AC0k9OBzKijroVtEncRIOjrpcsb9gctnIcYX/CQHfuulDj30cpcuifDse5snmdounjXH6hTd7G+PcXZ4ehs2EMWOUpHSaihKXmFrQKaTojHxG2GWVIz7GARXotzbc6MyS+OxfDauBKefROG2SxOpNbLodbOn3o5G61zVCx2Mwu1U5LRRNlvH8IsrI+9Glf2gsLHRJTTlaoVR3YHGDU90+PoXIheNtalUb9E0q2yQkJQ40FNknv8AVBIL0Sa4d9UKYdURbLqi46AnTCPkDteqVJoe1IteWOJ/lsQyQHTZw7tO/wDVNDI4SUgTxqceJ7NMwFoeDtrfuvUkk1yPOi2nxZ5P+IGDy4uw0nxAKrq7t7rzJL/uSS/yelB3jTZr+TeXPy0RlkA8Zw2/gHRvv3WrFj4R5Psy5MnKXFdH584m4maVzvizuvveY2tsP7UZZ/3M3v4McOBndiX6RwNu9TT3+UV/8h31CnkklK36Ggm1SPQ+KFzpHvaQ9pLj5SC6gBl8u9kCtliyOXJtGrHSikxvgJMeGzO+J5JN5gR6U7Yj00TYpcMXJnTXKdIy3MXFiSaXlTk8079HpYcahE8i49i7nf3zC/kKXv8Ai46xL/B43kyvKy75anLg5l9D9RqsfmQpqRp8Wdqhk4h3dS4IpzYJ2IPfdMoIVzfojFiTqi8aBGbBvlJ2+aZRXsRyb6IsxJaQQUXDkFSroBLjXEp44lROeVt2AnxZPVUjjSElkfsZjxnlHopvHsvHKuNAWyE9dEzjRFSbGMMdaU59WPDsM7DOGgO6RTTKfG10BbEWnXZUck1okotdlvBh2EZmnVZJTknTNkMcWrRwzOa6nVXddxTVoFtSpn0OJoldKGkcprYCfFZnWQnjjpCTnb2gjXgpWqGTTIzvARimwSddAHO21VEifZHxNaXcTrtnz3fdFIDogJO5KNAT/QrJtN0jiUUz3DkjiYnwsZ3OUA+40P7LXgna4/hlzxp8iu5zhcC2WP8A8kRzD6UR9CQsXltwmmjX4lSXGXs8+xHOczpfjfkOhaTqO+yV4JyhuWzRH44uqPPXOL5X5QSXPNDckl2gXrpVBL+DyJvlNtfp+heXuVRheHMhLg1xp8pq8zj+n2ugPZRyQ5xGhPjKkJcYwjmg0MxaHE5Rn1caBrdoAr5hYcuNrRrhJMHgXPjwg8QkXmcA4m2g/CNfRQzNxx0yuNXO0efce4pbngGgwEuP+dSm8bBpN+y2fNwTS9Hn8pLiXHqbXvxSSSPCk23bLzlOciUepCw+dD6GrxJNTLXiYySuHTf5HVZcP2gmaMn1mJyPvqqpUTlsm2ga30Qe0UjFJgDiC266p+Fk3JoVLj8lWkTabOzzNvRdGMq2dPi3oVlcqxRKSB+OapNwV2FSfRYtfVLM1YydNBvEHrfRLTGtBTjCAAk+NWP8tKghxhqil+JXaG+V1RCKev1aIuF+hVOlVmn5Pw2GxImZO4iTL/tG6Aq7PqdtClkowi2x4yc2kUWLwTmPexnnAs23XTuR0QhNTSbHy4Z43SFQ5UoiGikohJKNoeLpkJJMzqCKjxiBvlKgr4nAapVJN6H4SS2BZad0JFNbGKDQS7W1O23oqkkti7cM52rRd9t/oqc0nTJvE3G0b/k78O3yVJiQWs6M2J/7dh6J443k/hCSnHGq7ZvW4RmFfGGU1p0obX0KScVgnFr2cpPLF2PcSwweCe4Kpnxqasnhm4ujxDm7hPhPc8Chf39Vh8TK3/236PVypShzH/wh4Ix7n4mQAshLnCx+qtPoL+oXo5Jfe30kYk4rx1FdyZ6n/qNxgy7DzW3oaLgK6gafNdGf1uRn+OpfUrsHxKMOkPiMc8nYaOAG+/r8lleaMbd7L/G3SMlzlxumGisULz5P4NqSxRtnk2PxpcC0Hc2717Be7ixcdnkZcrloTy6Uq2RD8KlyStPqP3SZ48oND4pcZJmr5p3jf/E2j8v7FeV4XTj+Ho+R6ZRCVbuJCLJYifb0CEIDZJpUkBD7OyeqROL5M4ZDqF1eznKlRFw12RT0K1TBNbaduhUrBlMKWEMJd6LPKSQ8cbY5h8gJzC6UZ8mtF4KCf2GcPwzxHW3Rvqpyz8FT7Kx8ZTdroX4hgnRvp2tdlTFljOOiGTDKD2Lshc41SdyUdk1jk3RecM4HI97RDmz9Mo1H9FmeXl9as2LAofa6NjhOTnwyRzzSMZZykNNk3WlAVZv2STg1HjLUX/uWjmUr4pt0U3OnCYWOzRaa06tjr9LS4sv3cFtCyw3Dm9Mq5+BYtwv8u8AdaFfW1ePGKuyUm5OjmF5fxOYf7JB9SB/NLPLCqs6GNp2XsXKE580j2Rt7kl37KaaKynZY8P5VwrQQXvmeBeVul+wNWhz5e/8AYRfX1/uNM4I0lvhxRBh6PYHG+oJOxCklO9f+ynJVs0HLWFYx5YYomObV5GjW9iDXutXjbk1L0Z87+txNDxPibIWFxK25s8ccbZjxYZZJHmfGecC6RpbqA4E/IryZPJlfJ6/D2IYIwVHo+BxgexuujgDfuvQxZeUUmeVkx8WU3H+ANka6wCOvVY8/itNzia8Hk1oJyBwyODChrNnOc5xPUuJv5bD5Lb40+ceTM3lLjOkG5nwLXRu8MhjjX/WhrVDa6GqHkqPB1o7A5Xs8vEhikkc7ceVpNHTq4G+utj1XmzqcVGJ6OKFSbkY/mrihect+69PwsHFcjJ5ua/qihiZZC3ydHnBnBTQQIOt+qf1QPZtuMHxMJG7sR9xS8Xx/pnlE9XJ9sSZmHNor009GNqmcu13QLsnCcpsIS3oeD4u0fNkGayL9FzT40jlNc+UkfSOuzW65KtDSlduhcqhDoHIEyOZbNJoOOyyPukXj+scw2ELmmmH3KjPIlJWy+PC5J0jseOkiLWkigg8UMibGjlnjkosYxOPDpGh2t7pIYWotorPLFzUWPcN8NkoeWeJE3VzL1doa96NFLz6UlsaWLbcGXGE4ljswMUbgG53PZl8MBpBDBlq/WylqMU97/wCWFpSrSp/vYTC/mZCI3yDPeaqLg29lmk4N6trotqMbpFvxbkyWSFxfI0WNLsbdVox+PPF/3DNLysc/pQpy/wASlZEcM6WywZSDXTTqL2UMueatx1FjLDHTfaK7F8wBsjWPkAkbs8EA10BoduhTxhknHnFEpShF8Wx6PnZoDY43kkXY0Oa+xO3sqKOaMPxCXjcv5Ecb+ITHvAhjBfpTiACO4Pp1+Ss8GWrlomssLqOxg8z7tMgLi7NYoUaon639VjlHK1ZsjGF0fQ81xwk5TbjubJJKMIZ+wyjjfbIy4+TFFwe7ygWegF7C+6nkclUm7ZaEIw0jOnDRhxzPDR6nX6brVzm19UBqCe2ehck8VbNAWRknwjQvQ1007IcZxXF99mPK4uXJdGpbjg9hadNx7aK8c6nBxZm+LjK0KxYlsEbWA7DfupfMsMFFMo4PLJyZlOZ+Y9MoOqzucs7/AINmPEoK2edcX4lQLjudh3W7Bgt0iGfPSMnJbiSTZK9VUlSPIe3YzhmaWpze6CkdIQCCeE6FNdgJM2EcD+lzT9x/deRkXHyE/wBPU8d8sdMVxLonW2qPQqsFNbNGT4ZXFrZUeGVrtHm8WdgdRs6jsukrR2NqLthGsD3jSgUtuMSijHJkSWkNMwBL8rAXdqUvl+tsrLBxnS6OYvhL2up7Sw+opNHOhPgcmhbGYDIAbT48vJ0dl8b44phMXgpI/MfK29P5JceWE9Ls7L408f2fQ63j8ng0K7E9VH+jh8ll15k/jKl+KJ9ytSxpGR5G9+wUU1u8xTyhS0SjJt7G4OJujex7Dq1wcL1Fg2LHXZJ8S9lHlfo10XHng/mnytc+cOD2Rk2wDSjfw3XusWTG7qP+56GOUZRXI1vDOIxMDX5S0SkGPMbc9tD9P8N5q70sjh8Uuh3eWPf8HeO86MLshI8u0bTZca2cdmi1TJLLnq1USWPFDHpP7HmOJ404Sve6OnPcS6nEewHoBoti8dSiknoi87hN6A4stn8xYfr/AGTQvF9Uwzh832oR/LNa7QuBGtjp9lb5JNbMrwqMuyeGwrCTlJHckoTySrY2PCpPTJCZrDsT80OMpB5KD6LbDYsBtkMaKuhqVknjberN+Oa426RGPjE8zsjPhH6QKHufVNLx8WOPKXZPHnnknUegU8AZofiJ1RjJy66HlBY9Ptl7yRxL8vi22fJJ5T212P1/dLPaT/BHj7PWsXhrGZo+ijlw2uUSMJ7pmY4zO5jHPcCBsL6rznCUpbN0OPo834jxGyXE6L1sWGlSI5s/f4ZfFTF7rO3QL1IRUFSPIyZHN2wLhqmXRMsWtqMLO3cynoEEwAcwTRAzR8skOjkb3afsAV5/mammeh4LXsFIGOc4+iZckkaZ/HOTIZxsNNNSjT7YLXSE3MBKsm6MbinKjuErNqhkuhsNctm15I4tDBimvkFtH+WPZZU3CSm1aRrzpZIuEWWf4n8fgxGUxC6/VsVzn82fklSr/czwxyw4nyMNi4s8bXZtRuE+OXGTVGjJF5MaaZSz4tz2jM4mu62xxxi9I8/JmlNfZiwearoqUiSeg0U+U2EkoclTGjNxdolBGHBxO6EpONJDY48k2wLN07JoPhs36eqSfH2Vg5f+JN+LksBzicooWbodh2CHCLVnfLNOr6BNxBBsaJnBNUBZHdnzHFxtxtc1SpAUuUrkGZIQCAUjSfZaM5JNIJhMRlzA9QlyQug4siV2cw+Bc+yC0V0JpdPLGOmLjwSyW06OS4FwILh5epCMcsWml2dLBNNOS0OY2KHJcRObrajjll5ffovlhh4XAHw/FOY0lmhHVNlxqclyFwZZQg3E+bOZHgv17rnBQjUQKbyTTmWuIjY0Aj5enqssJSl2ejOMIo3/AC9zuPAyPBc9uhIO/YpZZJYlxrRleBTlaZl+Z+Yn4l7YwQLNNHQWuxwbbyT9HSnGC4R7ZiuPxOZKYy4HLV1tda/Qr0vGalDkl2ef5NqdMrtFfZnPo29VzZxaTCmgeiyx3Jsq+hNhVmTR2XZCPZzLXlOTz0epr6gj+iy+ctWavEdSo63COIcR03+S75Iqi8cM5JtAmihSZ72CKpURmjIRjJMTJCUeycbhk21StPkUg18dVsiXkahGk+xW2txIGYkdU3FJk+TaPppbHY6Lox2M562VhZS03ZlaaPidKXHBWykNIoG+qVxt2UUqi0DGyb2TRKAC9dEJN1oeKXsaw+IayxXzUpwciuPIoEHEHtZ7oq0dp/5B4uLIaJB9k2OXJWTy4+Dq7BsKZiINJQG+qRW2UdJdn0QBpdK0dCgzXND+4pI03EouEZ/wEZjS0EDb9kHiTdjR8hpNIWuyTap1oz9u2MwYgBtVupSg27LwyqMKrsLA4BwvQJZJ1ofFJKW9ILHJZIJJb0JSuNK12VjJSlxfRPEMDW+Um+6WDcnsGeEYQ+vZWBxBsE3vfX6rTSejzbfYhK83ZJJPU6/UrRFa0I3+kWbIsAzh2WQFKbpDJD2MB0UMZSQkxXZNEpW6IRewsa5fkqQD5/RS8pXApgdTNLNE3O7Trf11Xmxk+KPexRi0U/EDmfQFFbMWo2YvJlynSF3MIsHVOmmZ2pK0xgYWTLeXRJ8kLqyyw5eN0KUSqaRDci3kYx0QprWkfUrKnKM+z0/jhLFpJCD4AD5yArqf/wBTJLEk/u0VbCHg6Fan9TDGpXZEFtURr0R+3aZ31qmiWHuiABSE6s6DdNUQlgc0atIHqEYzUumCUJRW0MAtcwNDfNe/dTqSk23otcZQUUtkMvmqqTXqyb7oEYtTrsm5aErYMDVNeha2Fhw+a6OgSynRSGNyOAVetruxehoSZWim1691Ljb2y/NRjpCz3dVVIzuXssOExeJY0Hqs+eXCmbPGh8qcSM/DspvMCO6Mc3JdAyeLx3ej6eQOA9AuimmzsklJJIa4dwx0zHOaNu/VSy5445JMbD4zyxbRGN72CiAPSkWoy2hlLJi+rQcYuo3NyjzDfqEnx/dO+hp5n8bVdlW5ui0p7PMK6ZnULTFiM4waosBYYCPW1myvRSC2Gx/QpMQ0xJiuyaCPGiVdhJcKNSDof8tDP/YNidSNBxOQ5muH6mNP8lgwpU1+M9P5JKmvaFeF+G+UCV2VvUquXlGP1JQlGUvsWXGsDDEWvhf4jet7eijiySncZGl4+KUxOTE1nJdvs0ahMoXSS/1HeVR5OTX+CpMp6LXxR5byyXRBzzvaKQrnK7sC+S06QrdvZ9HLlAA67lc48nbKKXFUixZwcuZnect7Dus78lKXGOzTHxHKHKToLwR7I3jxG2Bqk8hSnH6sPjtQlUgnG+MCUFuXToh43jPG7sPkeUppxopcDIA8XstuWLcdGPDJKSsli5qdY3S442thySqVoXa4lUaSJ7OOaTqEUwHASu0dbCwMzA6gV36pZOmNCHJPYWR5cA0a12SJKNtlJNySij6HCFzw1xy3uT0XSyJRtbBDC3Li9f5JYqLw3U2QOHcLoS5q5Kjpx+OVRlZ2N7iK1JHRBpJnKbeiMr0YoEpFlh+IOLA1ri3L0HVZp4UpW12a8eduNRfQ/wANlZnbLMMzRuO6jkTrjAtFqS5SYTjmJglc4wMyt1QxRnD+4SbjODrso8trXdHmor5RofdaY9k2RwotdN0ci4w7MoWSTtl4qkBx7aZZ6JsW5UhZrRWxyZjpt0WlqiXYyVMYHgjUgPY2myf2AhpmrxzBkiPQNLf2XlY2+Ul/J664pJsqgWtNga9Fq20QU4xldB8TIXxON6gjQJIJRmkXyZHlxNt9FTa1UebsjqjoDTGsDgDIatSyZuCL4MHyMHjsCY3ZLB9k2PKpx5AyYXB8R3g2DY5okcLI2HdR8jLJS4o1eLhg48mHlme9+Wj6BJGMYRsMnkyTpFtgeXXlrjJQJHlHVZMnmR5JRLY8DVuRlOJ4V0Ti1+hC9XDkWRXE87LBweyvd9FoRBkJHElFJIVtjfDoC6z+kbqWaajX6Xw4+V/hKUC6ahHq2CdXUQZaR8012K1QNwAKZW0Lase4ZjRHdMBJ6lQzYnPtmnx86xJ0hnGY8S+bLR2U8eJ49WVyZ1kV1sXwXDvEebOX36p8mbhHRHHg5yp6NRwzh8UY6F1LzM2bJP8AwbsWGMP8lXiOE+JMGh3xbUPstUPI4Y7roSXiqWSmxB+BMby1wIINFXWVTjaM/wAHCVMscO9ltbpXVZ5KVORrxyhaiCxkeVxykEJsbtbJ54VfHoQYrs81CfEBp81fF2JILwuG6uh6lJmlQ2NWWwa0k5dQO+lrJtLZel6KfjE9+UHRbPHhWyGSVuiOGjoBGcrYqQWd1DYJYqxnoTw8nnsj+h9FWa+tCJ7NfjSDho3ev7j+y8nHazSR6cmnjTKWR33WxIzOyWFNON9kJ7WiuGXFuwUURNkp5SS0JGPJ2HjwJILrApTeVJpFo+M3FthG+SLMJKJPwjf6pf7slUOlwxWpCvD5AZLee/7KuWLUKiRwSTy/cFDxZzGhoGwTS8dSlbJRzyikkbTk7DDwvGdRc+69F4/nzfPgukej4q+nJ9sW5o406J7Q09FTwvFWSLbO8jyfjaRjeIY90ri5x1XsYsMcapHmZczyO2KOddKqVEW7OPHZFfyc+hnCjynVSn2UgnRLDQlzw0HUmkJyUYtsMMfOaiifE8KY5C27pDDkU4Jj+RieObjYnSsZ6sK8VRGyROx3paJwuNit0JJVsaDd0guLlde+oSY4xoplnJvYbh2IOcWTqlywXHQcWVqWy6ggka8vaadH5rWKU4uNP3o38GpWD4tK5zi9xsu1TYUkqQPJtPQvgYgTbhpSfJJpaJ+PCMnbCxYdpJ7dEsptIdYlKxBo1V30eZ7EeJu2CvhXsnMf4bCA3UWdPZQzSbeimNa2GxEuVhrc6JIRuWxpOo6KxmGs2StLnXRFRsbY1SbGRX4yRaMaEkxYOLT7qlWKazAvzYG6+FwP3/uvLyqvJ/yjfid4RKKKzZVZSpULGNu2QnI1RinoMmcwmIstZ3KM4UnIbDkdqJa8Qa9jCABV7rLicZyTPQzOUINIpHTEGhstqjatnl/I110HwOUEkhTy21Rbx1FO2f/Z"
+                         width="460" height="300" title="Canserbero - Jeremías 17:5 (Video Oficial)"
+                         alt="Canserbero - Jeremías 17:5 (Video Oficial)"
+                         style="padding-right: 100px;padding-left: 100px;"></a>
 
-</div>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=O4f58BU_Hbs">
+                    <img src="https://i.ytimg.com/vi/O4f58BU_Hbs/maxresdefault.jpg" width="460" height="300"
+                         title="Residente" alt="Rene-Residente" style="
+    padding-right: 100px;
+    padding-left: 100px;"></a>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=vFAOKWaEctg">
+                    <img src="https://www.elranchito.es/wp-content/uploads/2018/10/Unknown-3.jpeg" width="460"
+                         height="300"
+                         title="Rap Bruto" alt="Rap bruto - Residente & Nach"></a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Rap del gran canserbero...
+                <hr>
+            </th>
+            <th>
+                para mí la mejor canción de residente/calle13
+                <hr>
+            </th>
+            <th>
+                otra gran canciónde residente...
+                <hr>
+            </th>
+        </tr>
+        <hr>
+        <tr>
+            <th>
+                <a href="https://www.youtube.com/watch?v=Zl_GlPquElI">
+                    <img src="https://www.primerahora.com/resizer/ZehcpY0hArapNVv35Bu5Qr738OM=/695x0/smart/filters:quality(95):format(png)/arc-anglerfish-arc2-prod-gfrmedia.s3.amazonaws.com/public/AEPEZOBBZRBQ5I2P2A3OUFYWDM.jpg"
+                         width="460" height="300"
+                         title="Guerra - Residente (Video Oficial)" alt="Guerra - Residente (Video Oficial)"></a>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=AaLIvfR6Tw0">
+                    <img src="https://happyfm.es/wp-content/uploads/2019/02/ojala-de-beret-letra-y-video-01.jpg"
+                         width="460"
+                         height="300"
+                         title="BERET - OJALÁ (LETRA)" alt="BERET - OJALÁ (LETRA)"></a>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=o3ETAYgiGVQ">
+                    <img src="https://fleekmag.com/wp-content/uploads/2017/07/ambkor-feat-chojin-droow-volare.jpg"
+                         width="460" height="300"
+                         title="Soltar - Droow" alt="Soltar - Droow"></a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Canción que todo el mundo debería escuchar mínimo una vez un su vida...
+                <hr>
+            </th>
+            <th>
+                Bonita canción de Beret- ojala...
+                <hr>
+            </th>
+            <th>
+                Una del gran Droow. un maquina
+                <hr>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <a href="https://www.youtube.com/watch?v=oHEYwifXx1Y">
+                    <img src="https://static3.eldiariomontanes.es/www/multimedia/201708/19/media/cortadas/Imagen%20chojin-kesC-U40591143949WAG-624x385@Diario%20Montanes.jpg"
+                         width="460" height="300"
+                         title="El Chojin - Un nuevo yo despierta"
+                         alt="El Chojin - Un nuevo yo despierta"></a>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=1lSYXCjpRVc">
+                    <img src="https://as01.epimg.net/colombia/imagenes/2020/02/28/tikitakas/1582914923_553001_1582915000_noticia_normal_recorte1.jpg"
+                         width="460" height="300"
+                         title="Residente - Milo"
+                         alt="Residente - Milo"></a>
+            </th>
+            <th>
+                <a href="https://www.youtube.com/watch?v=1vbZMpRTT5M">
+                    <img src="https://static1.larioja.com/www/multimedia/201911/22/media/cortadas/kaseo-kquB-U907684027277YB-1248x770@La%20Rioja.jpg"
+                         width="460" height="300"
+                         title="KASE.O - REPARTIENDO ARTE "
+                         alt="KASE.O - REPARTIENDO ARTE "></a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                No podía faltar el gran Chojin en esta lista de rap
+                <hr>
+            </th>
+            <th>
+                Canción de residente dedicada a su hijo Milo, muy linda.
+                <hr>
+            </th>
+            <th>
+                Y como no, Kase o, uno de los mejores raperos de habla hispana.
+                <hr>
+            </th>
+        </tr>
+    </table>
+</main>
 </body>
+<footer>
+    <h4 align="center">Todos los derechos reservados © </h4>
+</footer>
 </html>
